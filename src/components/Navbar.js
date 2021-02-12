@@ -1,48 +1,4 @@
-// import React from 'react';
-// import { Nav, Navbar } from 'react-bootstrap';
-// import './Navbar.css';
-
-
-
-// export default function NavBar() {
-    
-//     return (
-//         <Navbar className="navbar__root">
-//             <div className="navbar__container">
-
-//                 <Navbar.Brand href="/" id="navbar__logo">
-//                     <i class="fas fa-laptop-code"></i>
-//                 </Navbar.Brand>
-
-//                 <Nav className="navbar__menu">
-//                     <Nav.Item className="navbar__items">
-//                         <Nav.Link href="/" className="navbar__links">
-//                             Home
-//                         </Nav.Link> 
-//                     </Nav.Item>
-//                     <Nav.Item className="navbar__items">
-//                         <Nav.Link className="navbar__links">
-//                             Portfolio
-//                         </Nav.Link> 
-//                     </Nav.Item>
-//                     <Nav.Item className="navbar__items">
-//                         <Nav.Link className="navbar__links">
-//                             Skills
-//                         </Nav.Link> 
-//                     </Nav.Item>
-//                     <Nav.Item className="navbar__items">
-//                         <Nav.Link className="navbar__links">
-//                             Contact
-//                         </Nav.Link> 
-//                     </Nav.Item>
-//                 </Nav>
-//             </div>
-//         </Navbar>
-//     )
-// }
-
 import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 

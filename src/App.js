@@ -11,22 +11,6 @@ import Projects from './pages/Projects';
 
 export default function App() {
 
-  // const [width, setWindowWidth] = useState(0)
-  //    useEffect(() => { 
-
-  //      updateDimensions();
-
-  //      window.addEventListener(“resize”, updateDimensions);
-  //      return () => 
-  //        window.removeEventListener(“resize”,updateDimensions);
-  //     }, [])
-     
-  //     const updateDimensions = () => {
-  //       const width = window.innerWidth
-  //       setWindowWidth(width)
-  //     }
-
-
   return (
     <React.Fragment>
       <Router>
