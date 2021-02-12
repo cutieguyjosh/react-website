@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.jumbotron {
+	background-image: url("./images/wallpaper.png");
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+}
+
+.intro {
+	margin-bottom: -105px;
+	color: #fff;
+}
+
+.picture {
+	background-size: 200%;
+}
+
+.self-photo img {
+	width: 230px;
+}
+
+.description {
+	display: flex;
+	justify-content: space-around;
+	font-size: 20px;
+	border: 1px solid #000;
+}
+
+.box1,
+.box2,
+.box3 {
+	padding: 50px;
+	margin: 20px;
+	width: 18rem;
+	text-align: center;
+}
+
+.folder-pic {
+	background-size: 100px 180px;
+}
+
+#main-section {
+  background-color: #fff;
+  padding: 70px 50px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 23px;
+}
+
+.long-copy {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+#contactform {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  justify-content: center;
+  font-size: 30px;
+}
+
+button {
+  margin: 0px;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  display: block;
+  width: 100%;
+  background-color: #1a7542
+}
+
+.formsize {
+	padding: 20px;
+}
+
+.container-skills {
+	width: 100%;
+	align-items: center;
+}
+
+.front-end {
+/*	border: 1px solid black;*/
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.back-end {
+/*	border: 1px solid black;*/
+}
+
+.language-color {
+	background-color: black;
+	border: solid black;
+	text-align: center;
+	color: white;
+}
+
+.skills {
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+.html {
+	border: 1px solid black;
+	padding: 8px;
+	width: 75%;
+	background-color: Red;
+	margin-top: 10px;
+}
+
+.css {
+	border: 1px solid black;
+	padding: 8px;
+	width: 72%;
+	background-color: Green;
+	margin-top: 10px;
+}
+
+.js {
+	border: 1px solid black;
+	padding: 8px;
+	width: 77%;
+	background-color: Blue;
+	margin-top: 10px;
+}
+
+.react {
+	border: 1px solid black;
+	padding: 8px;
+	width: 75%;
+	background-color: Orange;
+	margin-top: 10px;
+}
+
+.next {
+	border: 1px solid black;
+	padding: 8px;
+	width: 75%;
+	background-color: Red;
+	margin-top: 10px;
+}
+
+.node {
+	border: 1px solid black;
+	padding: 8px;
+	width: 70%;
+	background-color: Purple;
+	margin-top: 10px;
+}
+
+.express {
+	border: 1px solid black;
+	padding: 8px;
+	width: 73%;
+	background-color: Maroon;
+	margin-top: 10px;
+}
+
+.mongo {
+	border: 1px solid black;
+	padding: 8px;
+	width: 75%;
+	background-color: Gold;
+	margin-top: 10px;
+}
+
+.postman {
+	border: 1px solid black;
+	padding: 8px;
+	width: 76%;
+	background-color: Cyan;
+	margin-top: 10px;
+}
+
+.project1-pic {
+	width: 20%;
+}
+
+.project2-pic {
+	width: 20%;
+}
+
+.project3-pic {
+	width: 20%;
+	align-content: center;
+}
+
+.first-card {
+	text-align: center;
+}
+
+.second-card {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+
+.third-card {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+
+.project-p {
+	margin-left: 500px;
+	margin-right: 500px;
+}
+
+h2 {
+	margin-top: 10px;
+	justify-content: center;
+}
